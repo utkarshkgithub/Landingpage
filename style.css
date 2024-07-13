@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
     height: 100vh;
@@ -24,11 +25,12 @@ ul {
 }
 
 header {
-    background-color: rgb(31,41,55,255);
+    background-color: #1F2937;
     color: white;
     display: flex;
     flex-direction: column;
     padding-bottom: 30px;
+    font-family: Roboto,sans-serif;
 }
 .header {
     display: flex;
@@ -52,12 +54,13 @@ header {
 }
 
 button {
-    background-color: #3b82f6;
+    background-color: #3882F6;
     border: none;
     border-radius: 5px;
     color: white;
-    padding: 6px 18px;
+    padding: 6px 22px;
     font-weight: 700;
+    margin-top: 10px;
 }
 
 .footer {
@@ -69,15 +72,19 @@ button {
 }
 
 .middle {
+    display: flex;
     flex:1;
+    flex-direction: column;
+    gap:16px;
+    margin: 0;
 }
 
 .headertitle {
-    font-size: 30px;
+    font-size: 48px;
     font-weight: 800;
     display: flex;
     flex-wrap: wrap;
-    max-width: 280px;
+    color: #F9FAF8;
 }
 
 .imgplace {
@@ -95,4 +102,95 @@ button {
     margin-right: 16px;
     flex-shrink: 2;
     max-width: 380px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: #E5E7EB;
+    font-size: 26px;
+    font-style:italic;
+    color:#1f2937;
+    padding: 80px;
+    margin: 0;
+    font-weight:lighter;
+}
+
+.herosec,.links {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.infoheader {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
+    align-self: center;
+    margin-top: 30px;
+}
+
+.quotefooter {
+    display: flex;
+    font-weight: 600;
+    font-size: 26px;
+    justify-content: flex-end;
+    padding: 10px;
+    padding-bottom: 0px;
+    margin-right: 40px;
+}
+
+.shit {
+    max-width: 800px;
+}
+
+.submiddle {
+    display: flex;
+    justify-content: center;
+    gap:16px;
+    padding: 16px;
+}
+
+.roundbox {
+    width: 150px;
+    height: 150px;
+    outline: 3px solid #3882F6;
+    border-radius: 5px;
+    margin: 8px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 200px;
+    /* text-align: center; */
+}
+
+.middlefooter {
+    display: flex;
+    align-self: center;
+    background-color: #3882F6;
+    color: white;
+    margin: 40px 30px 60px;
+    padding: 30px 60px;
+    border-radius: 8px;
+    max-width: 800px;
+    justify-content: center;
+    align-items: center;
+}
+
+button.button {
+    outline: 2px solid white;
+    margin:0 30px;
+}
+
+.call {
+    font-weight: 600;
+}
+
+.calltext {
+    display: flex;
+    flex-direction: column;
 }
